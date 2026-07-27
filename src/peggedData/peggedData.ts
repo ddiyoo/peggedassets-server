@@ -8901,4 +8901,25 @@ export default [
     wiki: "https://www.krwq.cash/whitepaper.pdf",
     module: "krwt",
   },
+  {
+    id: "430",
+    name: "KRWO",
+    address: "klaytn:0x7FC692699f2216647a0E06225d8bdF8cDeE40e7F",
+    symbol: "KRWO",
+    url: "https://www.gimswap.com/en",
+    description:
+      "KRWO is a Korean won-denominated stablecoin issued by GimSwap against Open Voucher tokens that are redeemable for Korean won value.",
+    mintRedeemDescription:
+      "Users deposit Open Voucher tokens into GimSwap to mint KRWO at the protocol's fixed conversion rate and return KRWO to burn it and redeem the corresponding vouchers.",
+    onCoinGecko: "true",
+    gecko_id: "krwo",
+    cmcId: "38955",
+    pegType: "peggedKRW",
+    pegMechanism: "fiat-backed",
+    priceSource: "defillama",
+    auditLinks: ["https://docs.gimswap.com/introduction/audit"],
+    twitter: "https://x.com/gimswap",
+    wiki: "https://docs.gimswap.com/gimswap-guide/what-is-krwo",
+    module: "krwo",
+  },
 ] as PeggedAsset[];
